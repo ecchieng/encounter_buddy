@@ -2,7 +2,7 @@ from flask import Flask, render_template, request, session, send_file
 from PyPDF2 import PdfMerger
 import os
 
-app = Flask(__name__)
+app = Flask(__name__, template_folder='.')
 app.secret_key = 'supersecretkey'  # Secret key to manage user sessions
 
 # Mapping of numbers to lists of PDFs
