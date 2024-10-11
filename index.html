@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encounter Buddy :D</title>
+</head>
+<body>
+    <h1>Enter Numbers to Merge PDFs</h1>
+    
+    <!-- Display the current list of numbers entered, formatted as [1, 2, ...] -->
+    <h3>Current Numbers: {{ numbers }}</h3>
+
+    <form action="/" method="POST">
+        <label for="number">Enter a number:</label>
+        <input type="text" id="number" name="number" required>
+        <button type="submit" name="add_number">Add Number</button>
+    </form>
+
+    <!-- Buttons for Reset and Merging PDFs -->
+    <form action="/" method="POST">
+        <button type="submit" name="merge">Merge PDFs</button>
+        <button type="submit" name="reset">Reset Numbers</button>
+        <button type="submit" name="remove">Remove</button>
+    </form>
+</body>
+</html>
