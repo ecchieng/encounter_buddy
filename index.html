@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encounter Buddy :D</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">   
+</head>
+<body>
+    <h1>Encounter Buddy</h1>
+    
+    <h3>Current Ages: <span id="numbersList">[]</span></h3>
+
+    <div class="input-box" id="pdfForm">
+        <label class="age-prompt" for="number">Enter an age:</label>
+        <input type="text" id="number" name="number" required>
+    </div>
+
+    <div class="button-container">
+        <button type="button" id="addNumber">Add Number</button>
+        <button type="button" id="mergePDFs">Merge PDFs</button>
+        <button type=button id="removeLast">Remove Last</button>
+        <button type="button" id="reset">Reset</button>
+    </div>
+
+    <!-- Buttons for Reset and Merging PDFs -->
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
