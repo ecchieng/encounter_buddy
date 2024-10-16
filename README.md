@@ -1,9 +1,9 @@
 This is a simple website to help do encounters faster.
 
 Entering in ages:
-  Weeks are abbreviated as "w" so 2 weeks = 2w
-  Months are abbreviated as "mo" so 9 month = 9mo
-  Years are not required to be entered so 5 years = 5
+  1. Weeks are abbreviated as "w" so 2 weeks = 2w
+  2. Months are abbreviated as "mo" so 9 month = 9mo
+  3. Years are not required to be entered so 5 years = 5
 
 Instructions: 
   1. Split screen EPIC and the website
