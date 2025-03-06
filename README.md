@@ -1,4 +1,4 @@
-This is a simple website to help do encounters faster.
+This is a simple website to help do patient encounters forms faster at SF Bay Pediatrics.
 
 Entering in ages:
   1. Weeks are abbreviated as "w" so 2 weeks = 2w
