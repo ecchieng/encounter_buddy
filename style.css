@@ -86,3 +86,63 @@ button:hover {
     margin-bottom: 10px;
     margin-right: 10px;
 }
+
+/* Help / Instructions button in top-left corner */
+#helpButton {
+    position: fixed;
+    top: 15px;
+    left: 15px;
+
+    padding: 8px 12px;
+    font-size: 0.9em;
+
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+    z-index: 1000; /* keeps button above all content */
+
+    transition: background-color 0.3s ease;
+}
+
+#helpButton:hover {
+    background-color: #0056b3;
+}
+
+/* Hidden by default */
+.hidden {
+    display: none;
+}
+
+/* Panel styling */
+#helpPanel {
+    position: fixed;
+    top: 55px;   /* right underneath the button */
+    left: 15px;
+    width: 250px;
+
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+
+    padding: 15px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+
+    z-index: 999;
+}
+
+#helpPanel h3:first-of-type {
+    margin-top: 3px;
+}
+
+#helpPanel h3 {
+    margin: 15px 0 8px 0;
+}
+
+#helpPanel p {
+    margin: 6px 0;
+    font-size: 0.9em;
+}
+

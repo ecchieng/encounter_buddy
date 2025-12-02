@@ -57,7 +57,7 @@ document.getElementById('mergePDFs').addEventListener('click', async () => {
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = 'merged_output.pdf';
+    link.download = 'combined_encounters.pdf';
     link.click();
 });
 
@@ -118,5 +118,12 @@ numberInput.addEventListener('keydown', (event) => {
         event.preventDefault();  // Prevent form submission if needed
         addNumber(event);  // Trigger the add number functionality
     }
+});
+
+const helpButton = document.getElementById('helpButton');
+const helpPanel = document.getElementById('helpPanel');
+
+helpButton.addEventListener('click', () => {
+    helpPanel.classList.toggle('hidden');
 });
 
