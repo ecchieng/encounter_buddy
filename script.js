@@ -3,7 +3,7 @@ const pdfMapping = {
     "1mo": ["EPDS.pdf", "birth-6mo.pdf"],
     "2mo": ["CDC_2mo.pdf", "EPDS.pdf"], 
     "4mo": ["CDC_4mo.pdf", "EPDS.pdf", "Iron.pdf"],
-    "6mo": ["CDC_6mo.pdf", "EPDS.pdf", "6mo_12mo_safety.pdf", "Tylenol_Motrin.pdf", "Vitamin_D.pdf"], 
+    "6mo": ["CDC_6mo.pdf", "EPDS.pdf", "6mo_12mo_safety.pdf", "Tylenol_Motrin.pdf"], 
     "9mo": ["CDC_9mo.pdf", "TB_and_Lead.pdf"],
     "12mo": ["CDC_1yr.pdf"],
     "1": ["CDC_1yr.pdf"],
@@ -126,4 +126,5 @@ const helpPanel = document.getElementById('helpPanel');
 helpButton.addEventListener('click', () => {
     helpPanel.classList.toggle('hidden');
 });
+
 
