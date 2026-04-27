@@ -1,7 +1,7 @@
 const pdfMapping = {
     "2w": ["EPDS.pdf"],
     "1mo": ["EPDS.pdf", "birth-6mo.pdf"],
-    "2mo": ["CDC_2mo.pdf", "EPDS.pdf"], 
+    "2mo": ["CDC_2mo.pdf", "EPDS.pdf", "Tylenol_for_Babies.pdf", "Post_Vaccine_Care_Handout.pdf"], 
     "4mo": ["CDC_4mo.pdf", "EPDS.pdf", "Iron.pdf"],
     "6mo": ["CDC_6mo.pdf", "EPDS.pdf", "6mo_12mo_safety.pdf", "Tylenol_Motrin.pdf"], 
     "9mo": ["CDC_9mo.pdf", "TB_and_Lead.pdf"],
